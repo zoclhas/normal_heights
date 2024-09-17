@@ -9,7 +9,7 @@ Also includes a thin CLI wrapper.
 ```rust
     let img = image::open(input)?;
     let dirextx = true;
-    let normal_map = normal_heights::map_normals(&img, true);
+    let normal_map = normal_heights::map_normals(&img, directx);
     normal_map.save(output)?;
 ```
 

@@ -33,7 +33,7 @@ fn main() -> Result<(), Box<dyn Error>> {
             Arg::with_name("directx")
                 .help("Generate DirectX normals (Inverted Y)")
                 .next_line_help(true)
-                .short("dx")
+                .short("d")
                 .long("directx")
                 .default_value(&"false")
                 .validator(directx_validator),
